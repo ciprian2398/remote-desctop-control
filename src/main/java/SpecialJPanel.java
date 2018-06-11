@@ -58,6 +58,7 @@ public class SpecialJPanel extends JPanel {
         addMouseMotionListener(ms);
         addMouseWheelListener(wl);
         addMouseListener(ml);
+
     }
 
     private void calcImageDimension(int d) {

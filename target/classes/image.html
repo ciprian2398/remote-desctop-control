@@ -1,0 +1,27 @@
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, minimum-scale=0.1">
+		<title>localhost (1280×1024)</title>
+	</head>
+	<body style="margin: 0px; background: #0e0e0e;" onload="updateImage()">
+		<img style="-webkit-user-select: none;cursor: zoom-out;" src="http://localhost:8080/" width="1280" height="1024" name="imagename">
+	</body>
+</html>
+
+<script language="javascript">
+
+function updateImage() {
+
+   obj = document.imagename;
+
+   obj.src = obj.src + "?" + Math.random();
+
+   //Following statement sets the delay before the function will
+
+   //call itself again (in milliseconds)
+
+   setTimeout("updateImage()",300);
+
+}
+
+</script>

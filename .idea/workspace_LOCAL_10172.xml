@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="42c31917-6e84-4624-9720-6800c1f3af00" name="Default" comment="">
-<<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/src/main/java/ImageProvider.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/StreamDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -16,20 +15,6 @@
       <change beforePath="$PROJECT_DIR$/target/classes/SpecialJPanel$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SpecialJPanel$2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/SpecialJPanel$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SpecialJPanel$3.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/SpecialJPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SpecialJPanel.class" afterDir="false" />
-=======
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/junior_war.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/junior_war_exploded.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_mail_javax_mail_1_6_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_javaee_api_8_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ImageSource.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/junior.iml" afterPath="$PROJECT_DIR$/junior.iml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SpecialJPanel.java" afterPath="$PROJECT_DIR$/src/main/java/SpecialJPanel.java" />
-      <change beforePath="$PROJECT_DIR$/target/classes/SpecialJPanel.class" afterPath="$PROJECT_DIR$/target/classes/SpecialJPanel.class" />
->>>>>>> 0ff4bf020298e565ebde6f7e699cb32531af8d3f
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -45,25 +30,15 @@
       <file leaf-file-name="SpecialJPanel.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/SpecialJPanel.java">
           <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
             <state relative-caret-position="987">
               <caret line="96" column="19" lean-forward="true" selection-start-line="96" selection-start-column="19" selection-end-line="96" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
-=======
-            <state relative-caret-position="51">
-              <caret line="38" column="21" lean-forward="true" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
-              <folding>
-                <element signature="e#1220#1221#0" expanded="true" />
-                <element signature="e#1485#1712#0" expanded="true" />
-                <element signature="e#1711#1712#0" expanded="true" />
->>>>>>> 0ff4bf020298e565ebde6f7e699cb32531af8d3f
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-<<<<<<< HEAD
       <file leaf-file-name="ScreenSize.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ScreenSize.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -87,13 +62,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="161">
               <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-=======
-      <file leaf-file-name="ImageSource.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ImageSource.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="35" column="50" lean-forward="false" selection-start-line="35" selection-start-column="50" selection-end-line="35" selection-end-column="50" />
->>>>>>> 0ff4bf020298e565ebde6f7e699cb32531af8d3f
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -121,11 +89,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="GradleLocalSettings">
-    <option name="externalProjectsViewState">
-      <projects_view />
-    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -179,12 +142,8 @@
         <option value="$PROJECT_DIR$/src/main/java/StreamDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/App.java" />
         <option value="$PROJECT_DIR$/src/main/java/SpecialJPanel.java" />
-<<<<<<< HEAD
         <option value="$PROJECT_DIR$/src/main/java/Reciver.java" />
         <option value="$PROJECT_DIR$/src/main/java/Main.java" />
-=======
-        <option value="$PROJECT_DIR$/src/main/java/ImageSource.java" />
->>>>>>> 0ff4bf020298e565ebde6f7e699cb32531af8d3f
       </list>
     </option>
   </component>
@@ -215,34 +174,17 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-<<<<<<< HEAD
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="551" />
     <option name="y" value="39" />
     <option name="width" value="654" />
     <option name="height" value="1001" />
-=======
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-7" />
-    <option name="width" value="1067" />
-    <option name="height" value="907" />
->>>>>>> 0ff4bf020298e565ebde6f7e699cb32531af8d3f
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-      <manualOrder />
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
@@ -279,16 +221,16 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="junior" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="AndroidView" />
       <pane id="Scope" />
-<<<<<<< HEAD
-=======
-      <pane id="Scratches" />
->>>>>>> 0ff4bf020298e565ebde6f7e699cb32531af8d3f
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -301,13 +243,9 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
@@ -328,56 +266,21 @@
   </component>
   <component name="RunManager" selected="Application.App">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="App" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
       <module name="junior" />
-      <envs />
-    </configuration>
-<<<<<<< HEAD
-=======
-    <configuration name="Beta" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="Beta" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="junior" />
-      <envs />
     </configuration>
->>>>>>> 0ff4bf020298e565ebde6f7e699cb32531af8d3f
     <configuration name="Egret" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" runner="idea">
+      <option name="MAIN_CLASS_NAME" value="over.Egret" />
+      <module name="junior" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="over.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="over.Egret" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="junior" />
-      <envs />
     </configuration>
-<<<<<<< HEAD
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="junior" />
@@ -386,67 +289,22 @@
     <configuration name="StreamDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="StreamDemo" />
       <module name="junior" />
-=======
-    <configuration name="Programmer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="Programmer" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
->>>>>>> 0ff4bf020298e565ebde6f7e699cb32531af8d3f
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="junior" />
-      <envs />
     </configuration>
     <configuration name="TestClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="TestClass" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
       <module name="junior" />
-      <envs />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
     <configuration name="TestRes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="TestRes" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
       <module name="junior" />
-      <envs />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" />
@@ -456,17 +314,13 @@
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="singleModule" />
       </option>
-      <envs />
       <patterns />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
@@ -479,19 +333,15 @@
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="singleModule" />
       </option>
       <option name="USE_DEFAULT_REPORTERS" value="false" />
       <option name="PROPERTIES_FILE" />
-      <envs />
       <properties />
       <listeners />
     </configuration>
-<<<<<<< HEAD
     <list>
       <item itemvalue="Application.App" />
       <item itemvalue="Application.TestClass" />
@@ -506,27 +356,8 @@
         <item itemvalue="Application.StreamDemo" />
         <item itemvalue="Application.TestRes" />
         <item itemvalue="Application.TestClass" />
-=======
-    <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.Programmer" />
-      <item index="1" class="java.lang.String" itemvalue="Application.TestRes" />
-      <item index="2" class="java.lang.String" itemvalue="Application.TestClass" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Beta" />
-      <item index="4" class="java.lang.String" itemvalue="Application.App" />
-    </list>
-    <recent_temporary>
-      <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.App" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Beta" />
-        <item index="2" class="java.lang.String" itemvalue="Application.TestClass" />
-        <item index="3" class="java.lang.String" itemvalue="Application.TestRes" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Programmer" />
->>>>>>> 0ff4bf020298e565ebde6f7e699cb32531af8d3f
       </list>
     </recent_temporary>
-  </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -541,28 +372,19 @@
       <workItem from="1526995704302" duration="192000" />
       <workItem from="1526997137233" duration="22642000" />
       <workItem from="1527595907457" duration="20673000" />
-<<<<<<< HEAD
       <workItem from="1528205765552" duration="50779000" />
       <workItem from="1529048375080" duration="231000" />
       <workItem from="1529568229601" duration="6980000" />
-=======
-      <workItem from="1528205765552" duration="50388000" />
-      <workItem from="1528733371875" duration="5356000" />
->>>>>>> 0ff4bf020298e565ebde6f7e699cb32531af8d3f
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-<<<<<<< HEAD
     <option name="totallyTimeSpent" value="101497000" />
-=======
-    <option name="totallyTimeSpent" value="99251000" />
->>>>>>> 0ff4bf020298e565ebde6f7e699cb32531af8d3f
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1067" height="907" extended-state="0" />
+    <frame x="-8" y="-8" width="1296" height="1010" extended-state="6" />
+    <editor active="true" />
     <layout>
-<<<<<<< HEAD
       <window_info anchor="right" id="Palette" order="8" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5008091" side_tool="true" weight="0.32912844" />
       <window_info anchor="right" id="Maven Projects" order="11" weight="0.32928804" />
@@ -597,40 +419,6 @@
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="2" sideWeight="0.49919093" weight="0.32912844" />
-=======
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32893" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3328877" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22939424" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
->>>>>>> 0ff4bf020298e565ebde6f7e699cb32531af8d3f
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -643,10 +431,8 @@
     <breakpoint-manager>
       <option name="time" value="30" />
     </breakpoint-manager>
-    <watches-manager />
   </component>
   <component name="editorHistoryManager">
-<<<<<<< HEAD
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/jre/lib/ext/dnsns.jar!/sun/net/spi/nameservice/dns/DNSNameService.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-169">
@@ -665,102 +451,26 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret line="26" column="32" lean-forward="true" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
-=======
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/javax/imageio/stream/FileImageInputStream.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/javax/imageio/IIOImage.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/jre/lib/rt.jar!/javax/jws/soap/InitParam.class" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/jre/lib/rt.jar!/javax/jws/HandlerChain.class" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/jre/lib/rt.jar!/javax/jws/Oneway.class" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/jre/lib/rt.jar!/javax/jws/WebMethod.class" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/javax/lang/model/element/AnnotationMirror.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/javax/rmi/CORBA/Tie.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/javax/rmi/CORBA/UtilDelegate.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/javax/sound/sampled/Port.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/javax/sound/sampled/Mixer.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/javax/tools/JavaCompiler.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/jre/lib/ext/dnsns.jar!/sun/net/spi/nameservice/dns/DNSNameService.class" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/javafx-src.zip!/javafx/embed/swt/FXCanvas.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/jre/lib/rt.jar!/sun/audio/AudioPlayer.class" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/jre/lib/rt.jar!/sun/audio/NativeAudioStream.class" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/jre/lib/rt.jar!/sun/java2d/pipe/DrawImage.class" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/jre/lib/rt.jar!/sun/net/ftp/FtpClient.class" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/jre/lib/rt.jar!/sun/net/ftp/FtpClientProvider.class" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/jre/lib/rt.jar!/sun/net/ftp/FtpDirEntry.class" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/jre/lib/rt.jar!/sun/net/ftp/FtpDirParser.class" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/jre/lib/rt.jar!/sun/net/ftp/FtpLoginException.class" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/jre/lib/rt.jar!/sun/net/ftp/FtpProtocolException.class" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/jre/lib/rt.jar!/sun/net/ftp/FtpReplyCode.class" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/jre/lib/rt.jar!/sun/net/dns/ResolverConfigurationImpl.class" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/jre/lib/rt.jar!/sun/net/dns/OptionsImpl.class" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/jre/lib/rt.jar!/sun/net/dns/ResolverConfiguration.class" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/jre/lib/rt.jar!/sun/net/ftp/impl/FtpClient.class" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/awt/event/KeyEvent.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/awt/peer/RobotPeer.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/awt/Robot.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/javax/swing/JFrame.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/awt/Graphics2D.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/javax/swing/JComponent.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/awt/Container.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/javax/swing/JPanel.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/awt/event/MouseEvent.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/lang/System.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/awt/image/ImageObserver.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/awt/Graphics.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/awt/Component.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/awt/image/BufferedImage.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/jre/lib/rt.jar!/sun/awt/SunHints.class" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/awt/event/MouseWheelListener.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="15" column="43" lean-forward="true" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/data/FrameState.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/jre/lib/rt.jar!/sun/audio/NativeAudioStream.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="49" lean-forward="false" selection-start-line="5" selection-start-column="49" selection-end-line="5" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#472#473#0" expanded="false" />
-            <element signature="e#504#505#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="102">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/data/Key.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/jre/lib/rt.jar!/sun/java2d/pipe/DrawImage.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="18" column="5" lean-forward="false" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
->>>>>>> 0ff4bf020298e565ebde6f7e699cb32531af8d3f
+        <state relative-caret-position="-544">
+          <caret line="10" column="35" lean-forward="true" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ScreenSize.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="5" lean-forward="false" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/awt/event/MouseAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="78" column="16" lean-forward="false" selection-start-line="78" selection-start-column="16" selection-end-line="78" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SpecialJPanel.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/jre/lib/rt.jar!/sun/net/ftp/FtpClient.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
-<<<<<<< HEAD
           <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
         </state>
       </provider>
@@ -804,28 +514,65 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-153">
           <caret lean-forward="true" />
-=======
-          <caret line="38" column="21" lean-forward="true" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
-          <folding>
-            <element signature="e#1220#1221#0" expanded="true" />
-            <element signature="e#1485#1712#0" expanded="true" />
-            <element signature="e#1711#1712#0" expanded="true" />
-          </folding>
->>>>>>> 0ff4bf020298e565ebde6f7e699cb32531af8d3f
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ImageSource.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/jre/lib/rt.jar!/sun/net/dns/ResolverConfigurationImpl.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="35" column="50" lean-forward="false" selection-start-line="35" selection-start-column="50" selection-end-line="35" selection-end-column="50" />
+        <state relative-caret-position="102">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/jre/lib/rt.jar!/sun/net/dns/OptionsImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/jre/lib/rt.jar!/sun/net/dns/ResolverConfiguration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/jre/lib/rt.jar!/sun/net/ftp/impl/FtpClient.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-918">
+          <caret line="58" column="13" selection-start-line="58" selection-start-column="13" selection-end-line="58" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/awt/event/KeyEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="808" column="28" selection-start-line="808" selection-start-column="28" selection-end-line="808" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/awt/peer/RobotPeer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-512">
+          <caret line="65" column="17" selection-start-line="65" selection-start-column="17" selection-end-line="65" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/awt/Robot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="407" column="29" selection-start-line="407" selection-start-column="29" selection-end-line="407" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#19321#19322#0" expanded="true" />
+            <element signature="e#19361#19362#0" expanded="true" />
+            <element signature="e#19636#19637#0" expanded="true" />
+            <element signature="e#19676#19677#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-<<<<<<< HEAD
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/javax/swing/JFrame.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="218">
@@ -1084,8 +831,6 @@
         </state>
       </provider>
     </entry>
-=======
->>>>>>> 0ff4bf020298e565ebde6f7e699cb32531af8d3f
   </component>
   <component name="masterDetails">
     <states>

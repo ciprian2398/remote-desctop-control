@@ -1,13 +1,13 @@
+package app;
+
+import panel.SpecialJPanel;
+
 import javax.swing.*;
 
-public class App {
-    public App() {
-        init();
-    }
+public class AppDesktopWindow {
 
-    private void init() {
+    private static void createDesktopWindow(SpecialJPanel specialJPanel) {
         JFrame jFrame = new JFrame("Screen");
-        SpecialJPanel specialJPanel = new SpecialJPanel();
         JScrollPane pane = new JScrollPane(specialJPanel);
         jFrame.add(pane);
         jFrame.setVisible(true);
@@ -17,8 +17,9 @@ public class App {
     }
 
     public static void main(String... args) {
-        new StreamDemo().init();
-        new App();
+        SpecialJPanel specialJPanel = new SpecialJPanel();
+
+        AppDesktopWindow.createDesktopWindow(specialJPanel);
     }
 }
 

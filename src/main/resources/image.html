@@ -1,25 +1,18 @@
 <html>
 	<head>
-		<meta name="viewport" content="width=device-width, minimum-scale=0.1">
-		<title>localhost (1280�1024)</title>
+		<title>Live</title>
 	</head>
-	<body style="margin: 0px; background: #0e0e0e;" onload="updateImage()">
-		<img id="image">
+	<body onload="updateImage()">
+		<input id="input" type="text" value="http://localhost:8080/video">
+		<button onclick="updateImage()" >Refresh</button>
+		<img id="image" onload="updateImage()">
 	</body>
 </html>
 
 <script>
-
-function updateImage() {
-   obj = document.getElementById("image");
-
-   obj.src = "http://localhost:8080/video" + "?" + Math.random();
-
-   //Following statement sets the delay before the function will
-
-   //call itself again (in milliseconds)
-
-   setTimeout("updateImage()",1000);
-}
-
+	function updateImage() {
+		img = document.getElementById("image");
+		input = document.getElementById("input");
+		img.src = input.value + "?" + Math.random();
+	}
 </script>

@@ -1,6 +1,9 @@
+package app;
+
 import com.sun.net.httpserver.HttpExchange;
 import com.sun.net.httpserver.HttpHandler;
 import com.sun.net.httpserver.HttpServer;
+import robot.ImageProvider;
 
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
@@ -10,10 +13,18 @@ import java.io.InputStream;
 import java.io.OutputStream;
 import java.net.InetSocketAddress;
 
-public class StreamDemo {
-    ImageProvider imageProvider = new ImageProvider();
+public class BrowserStreamScreen {
 
-    public void init() {
+    private static ImageProvider imageProvider;
+    private static InputStream in;
+
+    public static void main(String... args) {
+        in = BrowserStreamScreen.class.getClassLoader().getResourceAsStream("image.html");
+        imageProvider = new ImageProvider();
+        BrowserStreamScreen.init();
+    }
+
+    public static void init() {
         HttpServer server = null;
         try {
             server = HttpServer.create(new InetSocketAddress(8080), 0);
@@ -22,11 +33,11 @@ public class StreamDemo {
         }
         server.createContext("/video", new FrameHandler());
         server.createContext("/", new MainHandler());
-        server.setExecutor(null); // creates a default executor
+        server.setExecutor(null);
         server.start();
     }
 
-    class FrameHandler implements HttpHandler {
+    static class FrameHandler implements HttpHandler {
         @Override
         public void handle(HttpExchange exchange) throws IOException {
             BufferedImage bi = imageProvider.getImg();
@@ -41,11 +52,10 @@ public class StreamDemo {
         }
     }
 
-    class MainHandler implements HttpHandler {
+    static class MainHandler implements HttpHandler {
         @Override
-        public void handle(HttpExchange exchange) throws IOException {
+        public void handle(HttpExchange exchange) {
             try (
-                    InputStream in = getClass().getClassLoader().getResourceAsStream("image.html");
                     OutputStream out = exchange.getResponseBody();
             ) {
                 int length = 0;

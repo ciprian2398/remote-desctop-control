@@ -5,8 +5,9 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.ciprian</groupId>
-    <artifactId>junior</artifactId>
+    <artifactId>remote-desctop-control</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <packaging>jar</packaging>
 
     <build>
         <plugins>
@@ -19,24 +20,6 @@
                 </configuration>
             </plugin>
         </plugins>
-        <finalName>asem-ee</finalName>
+        <finalName>remote-desktop-control</finalName>
     </build>
-
-
-
-    <dependencies>
-        <dependency>
-            <groupId>javax</groupId>
-            <artifactId>javaee-api</artifactId>
-            <version>8.0</version>
-            <scope>provided</scope>
-        </dependency>
-    </dependencies>
-
-    <properties>
-        <failOnMissingWebXml>false</failOnMissingWebXml>
-    </properties>
-
-    <packaging>war</packaging>
-
 </project>

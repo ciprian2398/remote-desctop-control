@@ -1,3 +1,4 @@
+import javax.imageio.ImageIO;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
@@ -113,4 +114,24 @@ public class SpecialJPanel extends JPanel {
         }
 
     }
+
+
+//    @Override
+//    protected void paintComponent(Graphics g) {
+//        super.paintComponent(g);
+//
+//        Graphics2D g2d = (Graphics2D) g.create();
+//        getFrame();
+//
+//        BufferedImage resizedImage = new BufferedImage(imageDimension.width, imageDimension.height, 1);
+//        Graphics2D res = resizedImage.createGraphics();
+//        res.drawImage(bufferedImage, 0, 0, imageDimension.width, imageDimension.height, this);
+//
+//        bufferedImage = resizedImage;
+//        g2d.drawImage(bufferedImage, imagePosition.x, imagePosition.y, this);
+//        g2d.dispose();
+//        g.dispose();
+//        repaint();
+//
+//    }
 }

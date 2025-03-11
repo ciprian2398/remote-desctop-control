@@ -1,17 +1,19 @@
+package panel;
+
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
-import java.io.BufferedReader;
 import java.io.IOException;
 import java.net.ServerSocket;
 import java.net.Socket;
 import java.net.SocketTimeoutException;
 
-public class ImageSource extends Thread {
+public class SocketImageDownloader extends Thread {
+
     private Socket server;
     private ServerSocket serverSocket;
     private BufferedImage bufferedImage;
 
-    public ImageSource(int port, BufferedImage bufferedImage){
+    public SocketImageDownloader(int port, BufferedImage bufferedImage) {
         this.bufferedImage = bufferedImage;
 
         try {
@@ -28,13 +30,13 @@ public class ImageSource extends Thread {
             try {
                 server = serverSocket.accept();
                 System.out.println("accepted");
-                server.setSoTimeout(100000);
-                while (true){
+                server.setSoTimeout(1000);
+                while (true) {
                     BufferedImage img = ImageIO.read(ImageIO.createImageInputStream(server.getInputStream()));
-                    if(img!= null) {
+                    if (img != null) {
                         System.out.println("received");
-                        img.createGraphics().drawImage(bufferedImage,0,0,null);
-                    }else System.out.println("null");
+                        img.createGraphics().drawImage(bufferedImage, 0, 0, null);
+                    } else System.out.println("null");
                 }
             } catch (SocketTimeoutException st) {
                 System.out.println("Socket timed out!");

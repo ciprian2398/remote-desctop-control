@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="war" name="junior:war">
-    <output-path>$PROJECT_DIR$/target</output-path>
-    <root id="archive" name="asem-ee.war">
-      <element id="artifact" artifact-name="junior:war exploded" />
-    </root>
-  </artifact>
-</component>

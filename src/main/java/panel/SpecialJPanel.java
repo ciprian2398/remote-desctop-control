@@ -1,3 +1,7 @@
+package panel;
+
+import robot.ImageProvider;
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
@@ -5,35 +9,23 @@ import java.awt.image.BufferedImage;
 
 public class SpecialJPanel extends JPanel {
 
-    private int maxZoom = 300;
+    private static final int maxZoom = 300;
+    private static final int minZoom = 5;
+    private static final int scale = 10;
+
     private int zoomLevel = 100;
-    private int minZoom = 5;
-    private int scale = 10;
 
-    private Robot robot;
-    private Rectangle rectangle;
+    private final Point oldPoint = new Point(0, 0);
+    private final Point imagePosition = new Point(0, 0);
     private BufferedImage bufferedImage;
-    private Point imagePosition = new Point(0, 0);
-    private Point oldPoint = new Point(0, 0);
-    private Dimension imageDimension;
 
-    ImageSource imageSource;
-
+    private final Dimension imageDimension;
+    private final ImageProvider imageProvider;
 
     public SpecialJPanel() {
-        init();
-    }
-
-    private void init() {
-        try {
-            robot = new Robot();
-        } catch (AWTException e) {
-            e.printStackTrace();
-        }
-        rectangle = new ScreenSize().getRectangle();
-        bufferedImage = robot.createScreenCapture(rectangle);
-        imageDimension = new Dimension(rectangle.width, rectangle.height);
-        imageSource = new ImageSource(2398, bufferedImage);
+        this.imageProvider = new ImageProvider();
+        this.imageDimension = imageProvider.getScreenSizeDimension();
+        this.bufferedImage = imageProvider.getImg();
 
         MouseMotionListener ms = new MouseAdapter() {
             @Override
@@ -47,7 +39,7 @@ public class SpecialJPanel extends JPanel {
             @Override
             public void mousePressed(MouseEvent e) {
                 super.mousePressed(e);
-                oldPoint = e.getPoint();
+                copyPoint(e.getPoint(), oldPoint);
             }
         };
 
@@ -58,10 +50,10 @@ public class SpecialJPanel extends JPanel {
                 calcImageDimension(e.getWheelRotation());
             }
         };
+
         addMouseMotionListener(ms);
         addMouseWheelListener(wl);
         addMouseListener(ml);
-
     }
 
     @Override
@@ -69,9 +61,8 @@ public class SpecialJPanel extends JPanel {
         super.paintComponent(g);
         if (bufferedImage != null) {
             Graphics2D g2d = (Graphics2D) g.create();
-            //bufferedImage = robot.createScreenCapture(rectangle);
 
-            bufferedImage = getResizedBufferedImage();
+            bufferedImage = getResizedBufferedImage(imageProvider.getImg());
 
             g2d.drawImage(bufferedImage, imagePosition.x, imagePosition.y, this);
             g2d.dispose();
@@ -80,25 +71,29 @@ public class SpecialJPanel extends JPanel {
         }
     }
 
-    private BufferedImage getResizedBufferedImage() {
+    private BufferedImage getResizedBufferedImage(BufferedImage freshImage) {
         BufferedImage resizedImage = new BufferedImage(imageDimension.width, imageDimension.height, 1);
         Graphics2D res = resizedImage.createGraphics();
-        res.drawImage(bufferedImage, 0, 0, imageDimension.width, imageDimension.height, this);
+        res.drawImage(freshImage, 0, 0, imageDimension.width, imageDimension.height, this);
         return resizedImage;
     }
 
-    private void calcImageDimension(int d) {
-        d *= -1;
-        if ((zoomLevel > minZoom+scale && d < 0 ) || (zoomLevel+scale <= maxZoom && d > 0) ){
-            zoomLevel += (d * scale);
-            imageDimension.width = (rectangle.width * zoomLevel)/100;
-            imageDimension.height = (rectangle.height * zoomLevel)/100;
+    private void calcImageDimension(int mouseTickRotations) {
+        mouseTickRotations *= -1;
+        if ((zoomLevel > minZoom + scale && mouseTickRotations < 0) || (zoomLevel + scale <= maxZoom && mouseTickRotations > 0)) {
+            zoomLevel += (mouseTickRotations * scale);
+            imageDimension.width = (imageProvider.getScreenSizeRectangle().width * zoomLevel) / 100;
+            imageDimension.height = (imageProvider.getScreenSizeRectangle().height * zoomLevel) / 100;
         }
     }
 
     private void moveImg(Point point) {
         imagePosition.x -= oldPoint.x - point.x;
         imagePosition.y -= oldPoint.y - point.y;
-        oldPoint = point;
+        copyPoint(point, oldPoint);
+    }
+    private void copyPoint(Point source, Point destination) {
+        destination.x = source.x;
+        destination.y = source.y;
     }
 }

@@ -1,0 +1,18 @@
+<html>
+	<head>
+		<title>Live</title>
+	</head>
+	<body onload="updateImage()">
+		<input id="input" type="text" value="http://localhost:8080/video">
+		<button onclick="updateImage()" >Refresh</button>
+		<img id="image" onload="updateImage()">
+	</body>
+</html>
+
+<script>
+	function updateImage() {
+		img = document.getElementById("image");
+		input = document.getElementById("input");
+		img.src = input.value + "?" + Math.random();
+	}
+</script>
